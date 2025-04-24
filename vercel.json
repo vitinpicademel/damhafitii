@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "buildCommand": "next build",
+  "devCommand": "next dev",
+  "installCommand": "npm install",
+<<<<<<< HEAD
+  "framework": "nextjs"
+=======
+  "framework": "nextjs",
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ]
+>>>>>>> c066f610c68a3167bc59713f866782e719656391
+} 
